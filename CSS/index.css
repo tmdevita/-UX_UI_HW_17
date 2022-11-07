@@ -12,6 +12,7 @@
 nav {
     width: 73%;
     padding: 1%;
+    background-color: grey;
 }
 
 ul {
@@ -38,13 +39,20 @@ footer ul {
     display: inline-block;
     vertical-align: top;
     padding: 1%;
+    color: white;
 }
 
-.content img {
-    height: 250px;
+.self {
+    height: 1000px;
 }
 
 .navigation img {
     height: 10%;
     width: 10%;
+}
+
+.heroImg img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
 }
